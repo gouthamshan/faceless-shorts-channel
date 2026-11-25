@@ -1,0 +1,8 @@
+# Path B — native-Tamil AI voice (render audio here)
+# Configure a Tamil-capable TTS provider (Coqui / gTTS / elevenlabs / local vits)
+# with a native Tamil voice before running this. Default: edge provider
+# supports English only — Tamil TTS currently returns no audio.
+VOICE_PROMPT="Tamil female/male, warm, conversational, clear articulation,
+slow pace, 16-bit 22050Hz, 16-bit mono. Script: vo.txt."
+echo "NOTE: Tamil TTS not configured on this edge provider. Set the Tamil voice
+provider, then rerun:  python3 render_dayN.py 1 Tamil"
