@@ -1,10 +1,11 @@
 # FACELESS SHORT-FORM CHANNEL PLAN
 ## "Cinema / Spiritual / Tamil | Malayalam | Hindi" — 3-language, daily Shorts
 
-**Prepared for:** [User]
+**Prepared for:** Dailyshorts (youtube.com/@Dailyshorts-e5l)
 **Format:** 15–60 second vertical Shorts (9:16), faceless
+**Primary language:** Tamil (free audio library OR native-Tamil AI voice); Malayalam & Hindi are supporting languages
 **Languages:** Tamil, Malayalam, Hindi (with English subtitle layer)
-**Audio:** Copyright-free library + custom AI-original music
+**Audio:** Path A — free audio library (YouTube Audio Library, Pixabay, FMA) OR Path B — native-Tamil AI voice (Coqui/gTTS/elevenlabs/local vits)
 **Cadence:** 5–7 Shorts/week (proposed), daily once live
 
 ---

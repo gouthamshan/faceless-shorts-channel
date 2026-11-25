@@ -17,27 +17,28 @@ This file is the **controller** for an AI agent. When you receive the instructio
 1. Read `README.md` (quick overview, < 30 seconds).
 2. Read `TASK.md` (this file) to learn the workflow.
 3. Pick the next queued action:
-   - **"generate next N scripts"** → use `scripts/template.md` + the pillar→language table below.
-   - **"batch-record"** → write N scripts, render audio-prompts, generate AI-music prompts.
-   - **"week 1 batch"** → produce Mon–Sun scripts, one per language/day.
-   - **"scale to 3 languages"** → one theme → original + 2 translations.
+   - generate next N scripts -> use scripts/template.md + the pillar->language table below
+      - batch-record -> write N scripts, render audio-prompts, generate AI-music prompts
+      - week 1 batch -> produce Mon-Sun scripts, one per language/day
+      - scale to 3 languages -> one theme -> original + 2 translations
 4. Produce the output in the Output Spec below.
 5. Write a one-paragraph handoff to `logs/YYYY-MM-DD.txt` and tag the user with the 3 most promising hooks. The next agent picks up exactly where this one left off.
 
-## Language/versioning rule (Day → Language → Pillar)
-| Day | Language | Pillar |
-|-----|----------|--------|
-| Mon | Malayalam | Cinema |
-| Tue | Tamil | Spiritual |
-| Wed | Hindi | Automobile |
-| Thu | Tamil | Cooking |
-| Fri | Hindi | AI Education |
-| Sat | Tamil | Investments |
-| Sun | Tamil/Malayalam/Hindi | Synthesis |
+## Language/versioning rule (Day -> Language -> Pillar)
+Tamil is primary; Malayalam/Hindi are supporting languages.
+|| Day | Language | Pillar |
+||-----|----------|--------|
+|| Mon | Tamil | Cinema |
+|| Tue | Malayalam | Spiritual |
+|| Wed | Hindi | Automobile |
+|| Thu | Tamil | Cooking |
+|| Fri | Tamil | AI Education |
+|| Sat | Tamil | Investments |
+|| Sun | Tamil/Malayalam/Hindi | Synthesis |
 
-## Output spec — one short (every script must follow `scripts/template.md`)
+## Output spec — one short (every script must follow scripts/template.md)
 - **Hook (0–1.5s):** one-sentence promise.
-- **VO language:** Tamil / Malayalam / Hindi / English.
+- **VO language:** Tamil first (free audio library OR native-Tamil AI voice); Malayalam/Hindi for support-day scripts.
 - **Visual:** single concept, max 3 shots, no jump cuts.
 - **Caption:** 2–3 lines, keyword-first, high contrast, plus English subtitle.
 - **Audio:** library track (Path A) with pillar→audio matching + "-14 LUFS mastering" note.

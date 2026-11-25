@@ -1,7 +1,7 @@
 ---
 name: fixtures-faceless-shorts
 version: 1.0.0
-description: Fixtures faceless short-form channel — Tamil/Malayalam/Hindi, daily Shorts, 7 pillars. Autonomous. AI-agent readable with <30s context load.
+description: Dailyshorts — faceless Tamil shorts (Tamil primary, Malayalam/Hindi supporting) with 7 pillars, daily production. AI-agent readable, autonomous.
 license: MIT
 keywords: [youtube, shorts, faceless, multitask, indian-language, cinema, spiritual, automobile, cooking, ai-education, investments, daily-content]
 domain: content-creation

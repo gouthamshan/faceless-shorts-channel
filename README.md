@@ -1,9 +1,13 @@
-# Fixtures Faceless Shorts — 3-Language, Daily, No-Face Channel
+# Dailyshorts — Faceless Tamil Shorts (3-language, daily, no-face)
 
 **Quick index for an AI agent. Read this file first (it is the entry point).**
 
-## What this project is
-A faceless YouTube Shorts channel publishing 5–7 short-form videos daily in Tamil, Malayalam, and Hindi — using **cinema, spiritual, automobile, cooking, AI education, investments, and language-culture** — with an English subtitle layer. No face, pure story + voice. See `PLAN.md` for the full 251-line blueprint.
+## Channel config
+- **Channel:** Dailyshorts — `youtube.com/@Dailyshorts-e5l`
+- **Primary language:** Tamil (free audio library OR native-Tamil AI voice)
+- **Supporting languages:** Malayalam, Hindi (with English subtitle layer)
+- **What this project is**
+- A faceless YouTube Shorts channel publishing 5–7 short-form videos daily in **Tamil, Malayalam, and Hindi** — using **cinema, spiritual, automobile, cooking, AI education, investments, and language-culture** — with an English subtitle layer. No face, pure story + voice. See `PLAN.md` for the full 251-line blueprint.
 
 ## Why it works
 South-language Indian Shorts is a fast-growing niche with almost no high-quality, faceless, English-heavy competition. Cinema + spiritual + regional language = high trust, shareable, "family-view" content. Cinema = clip-friendly and easy to localize into 3 scripts.
