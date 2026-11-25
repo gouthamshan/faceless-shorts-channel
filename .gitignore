@@ -1,0 +1,21 @@
+# Fixtures Faceless Shorts — local ignores
+
+# Music/asset downloads (regenerate or re-download)
+audio/
+assets/
+
+# Local logs (handoff summaries are gitignored; keep them local)
+logs/*.tmp
+
+# Secrets / local config (add any here)
+.env
+*.p12
+*.key
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
